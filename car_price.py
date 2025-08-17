@@ -36,3 +36,4 @@ if st.button("Get Price"):
     input_data = [[2012.0,2,120000,encoded_fuel_type,encoded_transmission_type,19.7,engine,46.3,seats]]
     price = model.predict(input_data)[0]
     st.subheader(f"Estimated Price: {round(price, 2)}L INR")
+
